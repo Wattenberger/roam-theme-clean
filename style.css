@@ -228,7 +228,7 @@ a:hover {
     flex: none !important;
     background: none !important;
     z-index: 1000;
-    transform: translateX(3em);
+    // transform: translateX(3em);
     padding-top: 5px;
 }
 #right-sidebar > .flex-h-box {;
@@ -241,6 +241,7 @@ a:hover {
     flex: none !important;
     width: auto;
     overflow: visible !important;
+    padding-right: 3em;
 }
 #roam-right-sidebar-content > div {
     max-width: 42em;
