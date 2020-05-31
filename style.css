@@ -1,4 +1,4 @@
-+ body {
+body {
     color: #3a3253;
 }
 .roam-body .roam-app h1.rm-title-display {
@@ -75,7 +75,7 @@ a:hover {
 }
 
 #right-sidebar {
-    background: #f5f4f2 !important;
+    background: #f4f4f4 !important;
     padding-left: 0.6em;
 }
 #right-sidebar .rm-reference-item .rm-page-ref {
@@ -165,6 +165,11 @@ a:hover {
 }
 .flex-v-box.starred-pages-wrapper > div:first-child {
     background: #fff !important;
+    display: none;
+}
+.starred-pages-wrapper {
+    margin-top: auto;
+    flex: none !important;
 }
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
     background: white;
@@ -179,7 +184,11 @@ a:hover {
 .roam-sidebar-container .bp3-button:not([class*="bp3-intent-"]) {
     background: none;
 }
-
+.roam-sidebar-container .flex-h-box .bp3-icon-star {
+    width: 0;
+    margin-left: -8px;
+    overflow: hidden;
+}
 
 .rm-pages-row .rm-pages-col {
     font-size: 0.8em;
@@ -187,4 +196,64 @@ a:hover {
 }
 .rm-pages-row {
     align-items: center;
+}
+
+
+.bp3-input-group .bp3-input:not(:first-child) {
+    box-shadow: none;
+}
+.bp3-input-group>.bp3-input-left-container>.bp3-icon, .bp3-input-group>.bp3-icon {
+    color: #b4c8d8;
+}
+.bp3-input-group .bp3-input:not(:first-child)::placeholder {
+    font-size: 0.8em;
+}
+.bp3-button .bp3-icon:first-child:last-child, .bp3-button .bp3-spinner+.bp3-icon:last-child {
+    border: none !important;
+}
+
+
+// cards
+.roam-body-main {
+    z-index: 1000;
+    height: 100%;
+    overflow: auto;
+    z-index: 1000;
+}
+.roam-center {
+    flex: 1 !important;
+    min-width: 40em;
+}
+#right-sidebar {
+    flex: none !important;
+    background: none !important;
+    z-index: 1000;
+    transform: translateX(3em);
+    padding-top: 5px;
+}
+#right-sidebar > .flex-h-box {;
+    width: 3em;
+    position: absolute;
+    margin: 0.5em 0 0em -3em;
+}
+#roam-right-sidebar-content {
+    display: flex;
+    flex: none !important;
+    width: auto;
+    overflow: visible !important;
+}
+#roam-right-sidebar-content > div {
+    max-width: 42em;
+    margin: 0 0.6em !important;
+    padding: 0.6em 1.3em;
+    background: white;
+    overflow: auto;
+    font-size: 0.8em;
+    max-height: calc(100vh - 63px);
+    box-shadow: 0px 1px 7px rgba(0,0,0,0.1);
+    border-bottom: none !important;
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+    width: 14em;
 }
