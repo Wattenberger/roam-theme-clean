@@ -1,0 +1,190 @@
++ body {
+    color: #3a3253;
+}
+.roam-body .roam-app h1.rm-title-display {
+    font-size: 3.5em;
+}
+.roam-body .roam-app h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    
+}
+.roam-log-container .roam-log-preview {
+    color: #ccc;
+    border-top: 1px solid #eaeaea;
+    transition: all 0.3s ease-out;
+}
+.roam-log-container .roam-log-preview h1 {
+    color: inherit;
+    opacity: 0.5;
+    transition: all 0.3s ease-out;
+}
+.roam-bullet-closed {
+    background-color: #eaeaea;
+}
+.controls .simple-bullet-outer .simple-bullet-inner {
+    width: 4px;
+    height: 4px;
+    background-color: #b4c8d8;
+}
+.span.bp3-icon-standard {
+    color: #b4c8d8;
+}
+
+.rm-page-ref-brackets {
+    display: none;
+}
+.rm-page-ref {
+    padding: 0.3em 0.5em;
+    // background: #e1dce4;
+    // color: #3a3253;
+    background: #e3e7f1;
+    color: #57507e;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+}
+.rm-page-ref:hover {
+    background: #aab3d3;
+    text-decoration: none;
+}
+a {
+    color: #7d97e5;
+}
+a:hover {
+    color: #7d97e5;
+}
+.check-container input:checked ~ .checkmark {
+    background: #7d97e5;
+}
+.check-container {
+    margin-right: 0.13em;
+}
+
+
+.bp3-button .bp3-icon, .bp3-button .bp3-icon-standard, .bp3-button .bp3-icon-large,
+.bp3-button:not([class*="bp3-intent-"]),
+.bp3-button[class*="bp3-icon-"]::before {
+    color: #b4c8d8;
+}
+#buffer {
+    background: #f4f4f4 !important;
+}
+
+.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
+    color: #cacacd;
+}
+
+#right-sidebar {
+    background: #f5f4f2 !important;
+    padding-left: 0.6em;
+}
+#right-sidebar .rm-reference-item .rm-page-ref {
+    background: #fff;
+}
+#right-sidebar h1 {
+    font-size: 2em;
+}
+#right-sidebar .flex-h-box .bp3-button {
+    margin-right: 0.4em;
+}
+#right-sidebar .roam-bullet-closed {
+    background-color: #eaeaea;   
+}
+
+.rm-ref-page-view-title a {
+    color: #3a3253;
+    font-weight: 500;
+}
+.zoom-mentions-view {
+    font-size: 1em;
+}
+.zoom-mentions-view .parent-path-wrapper {
+    color: #3a3253;
+}
+.rm-mentions .rm-ref-page-view .rm-ref-page-view-title {
+    font-size: 1em;
+    font-weight: 600;
+    color: #3a3253;
+}
+.rm-reference-item .rm-page-ref {
+    background: #f4f4f4;
+}
+.rm-reference-item .rm-page-ref-link-color {
+    // background: #7d97e5;
+    color: #7d97e5;
+}
+.rm-reference-item {
+    background: none;
+}
+.rm-ref-page-view {
+    margin: 2em 0;
+}
+.rm-reference-main .flex-h-box > span + div + div {
+    margin-bottom: 1em;
+}
+.rm-reference-main .flex-h-box > span + div + div strong {
+    color: #3a3253 !important;
+    font-weight: 800;
+}
+.rm-reference-main .flex-h-box > span + div + strong {
+    color: #3a3253 !important;
+    font-weight: 800;
+}
+
+
+.block-border-left {
+    border-left: 1px solid rgba(0, 0, 60, 0.1);
+}
+
+.bp3-button:not([class*="bp3-intent-"]) {
+    box-shadow: none;
+    background: #f4f4f4;
+    background: none;
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+    background: #e3e7f1;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+    font-weight: 500;
+    font-size: 0.8em;
+    text-transform: lowercase;
+    padding: 0.4em 20px;
+    // letter-spacing: 0.1em;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+    background: white;
+    color: #3a3253;
+}
+
+.flex-v-box.starred-pages-wrapper > div.flex-h-box > span + div + span {
+    font-weight: 500 !important;
+    font-size: 0.8em !important;
+    text-transform: lowercase;
+}
+.flex-v-box.starred-pages-wrapper > div:first-child {
+    background: #fff !important;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+    background: white;
+    color: #3a3253;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    font-weight: 500;
+    font-size: 0.8em;
+    // padding-left: 0;
+}
+.roam-sidebar-container .bp3-button,
+.roam-sidebar-container .bp3-button:not([class*="bp3-intent-"]) {
+    background: none;
+}
+
+
+.rm-pages-row .rm-pages-col {
+    font-size: 0.8em;
+    line-height: 1em;
+}
+.rm-pages-row {
+    align-items: center;
+}
